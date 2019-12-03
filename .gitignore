@@ -1,0 +1,10 @@
+venv
+.idea/*
+src/controller/__pycache__/*
+*.pyc
+__pycache__/*
+*.log
+__pycache__/
+env_*/
+env*
+test-data/*
