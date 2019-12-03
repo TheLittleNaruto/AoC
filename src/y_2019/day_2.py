@@ -1,7 +1,13 @@
 
-
 def parse(numbers):
-    return list(map(int, numbers.split(',')))
+    nums = list(map(int, numbers.split(',')))
+    restore(nums)
+    return nums
+
+
+def restore(numbers):
+    numbers[1] = 12
+    numbers[2] = 2
 
 
 def solve(data):

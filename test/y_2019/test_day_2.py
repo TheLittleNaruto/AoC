@@ -5,7 +5,7 @@ from src.y_2019.day_2 import parse, solve
 class DayOneTestCase(unittest.TestCase):
     def test_parse(self):
         data = parse('1,2,3')
-        self.assertEqual([1, 2, 3], data)
+        self.assertEqual([1, 12, 2], data)
 
     def test_solve(self):
         data = [2, 3, 0, 3, 99]
@@ -16,7 +16,7 @@ class DayOneTestCase(unittest.TestCase):
         data = parse(input_f.readline())
         input_f.close()
         answer = solve(data)
-        self.assertEqual(250702, answer)
+        self.assertEqual(3166704, answer)
 
 
 if __name__ == '__main__':
